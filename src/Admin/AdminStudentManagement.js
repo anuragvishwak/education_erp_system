@@ -1,13 +1,13 @@
 import React from "react";
 import AdminNavbar from "./AdminNavbar";
 
-function AdminDashboard() {
+function AdminStudentManagement() {
   return (
     <div>
       <AdminNavbar />
-      <div>AdminDashboard</div>
+      <div>AdminStudentManagement</div>
     </div>
   );
 }
 
-export default AdminDashboard;
+export default AdminStudentManagement;

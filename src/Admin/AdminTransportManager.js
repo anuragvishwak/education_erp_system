@@ -1,13 +1,13 @@
 import React from "react";
 import AdminNavbar from "./AdminNavbar";
 
-function AdminDashboard() {
+function AdminTransportManager() {
   return (
     <div>
       <AdminNavbar />
-      <div>AdminDashboard</div>
+      <div>AdminTransportManager</div>
     </div>
   );
 }
 
-export default AdminDashboard;
+export default AdminTransportManager;
