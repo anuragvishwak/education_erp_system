@@ -1,8 +1,12 @@
 import React from 'react'
+import ParentNavbar from './ParentNavbar'
 
 function ParentDashboard() {
   return (
-    <div>ParentDashboard</div>
+    <div>
+      <ParentNavbar/> 
+      <div>Parent Dashboard</div>
+    </div>
   )
 }
 

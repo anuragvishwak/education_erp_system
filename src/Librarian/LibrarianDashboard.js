@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import LibrarianNavbar from "./LibrarianNavbar";
 
 function LibrarianDashboard() {
   return (
-    <div>LibrarianDashboard</div>
-  )
+    <div>
+      <LibrarianNavbar />
+      <div>LibrarianDashboard</div>
+    </div>
+  );
 }
 
-export default LibrarianDashboard
+export default LibrarianDashboard;
